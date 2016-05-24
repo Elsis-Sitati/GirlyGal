@@ -8,7 +8,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.elsis.girlygal.MainActivity"
-    android:background="#2E8B57">
+    android:background="#00FF7F">
 
 
     <ImageView
