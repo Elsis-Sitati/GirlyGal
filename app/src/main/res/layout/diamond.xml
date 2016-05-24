@@ -37,5 +37,6 @@
         android:layout_marginBottom="64dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#ffffff" />
+        android:background="#ffffff"
+        android:onClick="goToHome"/>
 </RelativeLayout>

@@ -7,38 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.elsis.girlygal.Gold"
-    android:background="#00FF7F">
+    tools:context="com.example.elsis.girlygal.Girls"
+    android:background="@drawable/girly">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Gold"
-        android:id="@+id/textView2"
+        android:text="@string/text2"
+        android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="40sp"
-        android:layout_marginTop="44dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/longtext"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp" />
+        android:layout_marginTop="101dp"
+        android:textColor="#00FF7F" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Home"
-        android:id="@+id/button2"
+        android:id="@+id/button3"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="117dp"
+        android:layout_marginBottom="89dp"
         android:background="#ffffff"
         android:onClick="goToHome"/>
 </RelativeLayout>
